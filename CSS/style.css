@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(../assets/img/cine.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+#contenedorCards {
+  margin-top: 150px;
+}
+
+.div {
+  visibility: hidden;
+  position: absolute;
+}
+
+.divVisibility {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  min-height: 150px;
+  max-height: 80vh;
+  background-color: white;
+  right: 50%;
+  left: 50%;
+  top: 18%;
+  visibility: visible;
+  position: fixed;
+  overflow: scroll;
+  border-radius: 10px;
+  z-index: 110;
+  scroll-margin-right: 10px;
+}
+
+.radius {
+  border-radius: 15px;
+}
+
+.fa-cart-shopping {
+  color: green;
+}
+
+.fa-circle-xmark {
+  color: red;
+}
+
+#contador {
+  font-size: 45px;
+}
+
+.btn {
+  border: none;
+}
+
+header {
+  background-color: white;
+  height: 80px;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+}
+
+.contenedorcard {
+  top: 150px;
+  margin-bottom: 50px;
+}
+/*# sourceMappingURL=style.css.map */
